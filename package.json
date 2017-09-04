@@ -1,0 +1,49 @@
+{
+  "name": "flavors-plugin-loader-config",
+  "version": "0.0.0-development",
+  "description": "Flavors (Node.js configuration management library) configuration plugin loader.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js",
+    "lint": "eslint *.js test/**/*.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": "flavors-js/flavors-plugin-loader-config",
+  "keywords": [
+    "node.js",
+    "flavors",
+    "plugin",
+    "loader"
+  ],
+  "author": {
+    "name": "Michael Ledin",
+    "email": "michael@ledin.me",
+    "url": "https://github.com/mxl"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "files": [
+    "getOptions.js",
+    "index.js"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flavors-js/flavors-plugin-loader-config/issues"
+  },
+  "homepage": "https://github.com/flavors-js/flavors-plugin-loader-config#readme",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "flavors": "^2.3.0",
+    "flavors-plugin-loader": "^1.0.0",
+    "mocha": "^3.3.0",
+    "semantic-release": "^7.0.2",
+    "semantic-release-cli": "^3.0.3"
+  },
+  "dependencies": {
+    "obj-clean": "^2.0.0"
+  },
+  "peerDependencies": {
+    "flavors-plugin-loader": "^1.0.0"
+  }
+}
