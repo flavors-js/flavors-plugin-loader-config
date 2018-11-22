@@ -34,13 +34,13 @@
   "devDependencies": {
     "eslint": "^5.9.0",
     "flavors-plugin-loader": "^1.0.0",
-    "mocha": "^4.1.0",
+    "mocha": "^5.2.0",
     "semantic-release": "^15.12.1",
     "semantic-release-cli": "^4.0.11",
     "travis-deploy-once": "^5.0.9"
   },
   "dependencies": {
-    "flavors": "^3.3.4"
+    "flavors": "^4.0.0"
   },
   "peerDependencies": {
     "flavors-plugin-loader": "^1.0.0"
