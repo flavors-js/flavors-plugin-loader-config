@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test/index.js",
-    "lint": "eslint *.js test/**/*.js",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "lint": "eslint *.js test/**/*.js"
   },
   "repository": "flavors-js/flavors-plugin-loader-config",
   "keywords": [
@@ -33,14 +32,15 @@
   },
   "homepage": "https://github.com/flavors-js/flavors-plugin-loader-config#readme",
   "devDependencies": {
-    "eslint": "^4.8.0",
+    "eslint": "^5.9.0",
     "flavors-plugin-loader": "^1.0.0",
-    "mocha": "^4.0.1",
-    "semantic-release": "^8.1.2",
-    "semantic-release-cli": "^3.2.0"
+    "mocha": "^4.1.0",
+    "semantic-release": "^15.12.1",
+    "semantic-release-cli": "^4.0.11",
+    "travis-deploy-once": "^5.0.9"
   },
   "dependencies": {
-    "flavors": "^3.0.1"
+    "flavors": "^3.3.4"
   },
   "peerDependencies": {
     "flavors-plugin-loader": "^1.0.0"
